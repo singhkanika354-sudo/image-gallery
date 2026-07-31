@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery with Filters</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Image Gallery with Filters</h1>
+
+<div class="category-buttons">
+    <button onclick="filterCategory('all')">All</button>
+    <button onclick="filterCategory('nature')">Nature</button>
+    <button onclick="filterCategory('city')">city</button>
+    <button onclick="filterCategory('aesthetic')">aesthetic</button>
+</div>
+
+<div class="gallery">
+
+<div class="card nature">
+<img src="https://static.toiimg.com/photo/87156336.cms" alt="nature">
+</div>
+
+<div class="card nature">
+<img src="https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888_640.jpg" alt="nature">
+</div>
+
+<div class="card nature">
+<img src="https://img.magnific.com/free-photo/closeup-shot-beautiful-butterfly-with-interesting-textures-orange-petaled-flower_181624-7640.jpg?semt=ais_hybrid&w=740&q=80" alt="nature">
+</div>
+
+<div class="card nature">
+<img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/silhouettes-of-hawaiian-palms-at-a-gorgeous-sunset-free-image.jpeg?w=600&quality=80" alt="nature">
+</div>
+
+<div class="card nature">
+<img src="https://ik.imagekit.io/ikmedia/blog/ghost/content/images/2019/12/image-optimization.jpg" alt="nature">
+</div>
+ 
+<div class="card city">
+<img src="https://static.vecteezy.com/system/resources/thumbnails/053/285/774/small/high-resolution-flower-macro-with-stunning-bokeh-for-picture-perfect-stock-images-free-photo.jpg" alt="city">
+</div>
+
+<div class="card city">
+<img src="https://cdn.pixabay.com/photo/2023/08/04/22/59/sunset-8170058_640.jpg" alt="city">
+</div>
+
+<div class="card city">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW-6S_OE_jaSX52m553IvRJpZ6EYA5-3yWkg&s" alt="city">
+</div>
+
+<div class="card city">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5yrRok7kpZqZzj9sPA420yguH73uS6jDovQ&s" alt="city">
+</div>
+
+<div class="card city">
+<img src="https://imgproxy.divecdn.com/FV58RNvfLhvhguUty-FUza-1OrXL3YpzI_vjZFZSbSw/g:nowe:0:0/c:800:451/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8zNjU2NDc2MDE0Nl8wMGVkZGQxOThkX2MuanBn.webp" alt="city">
+</div>
+
+<div class="card aesthetic">
+<img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eSUyMHN0cmVldHxlbnwwfHwwfHx8MA%3D%3D" alt="aesthetic">
+</div>
+
+<div class="card aesthetic">
+<img src="https://www.pixelstalk.net/wp-content/uploads/images6/Cute-Pinterest-Wallpaper-Say-Hi.jpg" alt="aesthetic">
+</div>
+
+<div class="card aesthetic">
+<img src="https://images.unsplash.com/photo-1603950227760-e609ce8e15b4?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGludGVyZXN0JTIwYWVzdGhldGljfGVufDB8fDB8fHww" alt="aesthetic">
+</div>
+
+<div class="card aesthetic">
+<img src="https://img.staticmb.com/mbcontent/images/uploads/2025/4/pinterest-home-decor-ideas-macarame.jpg" alt="aesthetic">
+</div>
+
+<div class="card aesthetic">
+<img src="https://i.ytimg.com/vi/qr8bNBuptpU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDB0NW1Sy4p4ipc2j7kYCj_Ys4K7Q" alt="aesthetic">
+</div>
+
+<div class="card aesthetic">
+<img src="https://www.pinterestcareers.com/media/avxemj2i/dsc01671.jpg?width=1600&height=900&rnd=133579022025430000&width=1600&height=900&rmode=crop&quality=85" alt="aesthetic">
+</div>
+
+<div class="card city">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm0GC4FmIGmExMOfNhMwIrGDXpjGjeowD6_g&s" alt="city">
+</div>
+
+<div class="card aesthetic">
+<img src="https://www.thestapleberry.in/cdn/shop/products/3fd2c229-c5f6-4c5b-881e-aa9b8a2132c3-640x640_480x.webp?v=1659341543" alt="aesthetic">
+</div>
+
+
+</div>
+
+<div class="buttons">
+<button onclick="applyFilter('grayscale(100%)')">Black & White</button>
+
+<button onclick="applyFilter('sepia(100%)')">Sepia</button>
+
+<button onclick="applyFilter('none')">Original</button>
+
+<button onclick="applyFilter('brightness(150%)')">Brightness</button>
+
+<button onclick="applyFilter('blur(3px)')">Blur</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
